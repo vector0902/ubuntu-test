@@ -5,7 +5,7 @@ RUN apt update
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt install -y curl wget tigervnc-standalone-server tigervnc-xorg-extension lxterminal git
+RUN apt install -y curl wget less vim tigervnc-standalone-server tigervnc-xorg-extension lxterminal git
 # RUN apt install -y xfce4 seahorse
 RUN apt install -y icewm
 
