@@ -1,0 +1,7 @@
+
+DISPLAY=:0
+
+RESOL=1440x900
+RESOL=1024x768
+
+vncserver $DISPLAY -geometry $RESOL -dpi 80
