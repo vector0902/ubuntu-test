@@ -1,0 +1,7 @@
+
+services:
+  os:
+    build: .
+    ports:
+      - 5900:5900
+      - 6080:6080
